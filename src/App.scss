@@ -1,0 +1,32 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+#basic-addon1:hover{
+    background-color: rgb(158, 157, 157);
+    color: white;
+
+}
+
+img,img.img{
+
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    text-shadow:  3px 2px 3px  rgb(74, 138, 165);
+}
+.container{
+    border: 1px solid black;
+    padding: 100px;
+  
+    border-radius: 30px;
+    box-shadow: 2px 5px 6px  rgb(74, 138, 165);
+}
+.btn{
+    background-color: rgb(173, 173, 173)!important;
+    border: 1px solid black!important;
+
+    &:hover{
+        background-color: rgb(110, 110, 110)!important;
+    }
+}
